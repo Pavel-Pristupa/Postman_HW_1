@@ -14,7 +14,7 @@ request url params:
  age: int  
   
 response:   
-```json
+```js
 [
     “Str”,
     “Str”
