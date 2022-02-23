@@ -31,7 +31,7 @@ request form data:
  salary: int  
   
 response:   
-```js
+```
 {
 	'name': name,
 	'age': age,
