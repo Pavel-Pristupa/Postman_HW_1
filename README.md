@@ -31,7 +31,7 @@ request form data:
  salary: int  
   
 response:   
-```
+```yaml
 {
 	'name': name,
 	'age': age,
