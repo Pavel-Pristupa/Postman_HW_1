@@ -14,7 +14,7 @@ request url params:
  age: int  
   
 response:   
-```
+```json
 [
     “Str”,
     “Str”
@@ -31,7 +31,7 @@ request form data:
  salary: int  
   
 response:   
-```
+```json
 {'name': name,
           'age': age,
           'salary': salary,
@@ -51,7 +51,7 @@ request url params:
  weight: int  
   
 response:   
-```
+```json
 {'name': name,
 'age': age,
 'daily_food': weight * 0.012,
@@ -68,7 +68,7 @@ request url params:
  salary: int  
   
 response:  
-```
+```json
 {'start_qa_salary': salary,
           'qa_salary_after_6_months': salary * 2,
           'qa_salary_after_12_months': salary * 2.7,
@@ -90,7 +90,7 @@ request url params:
  salary: int  
   
 response:   
-```
+```json
 {'name': name,
           'age': age,
           'salary': salary,
@@ -113,7 +113,7 @@ request url params:
  salary: int  
   
 response:   
-```
+```json
 {'name': name,
           'age': int(age),
           'salary': [salary, str(salary * 2), str(salary * 3)]
@@ -129,7 +129,7 @@ request form data:
  salary: int  
   
 response:   
-```
+```json
 {'start_qa_salary': salary,
           'qa_salary_after_6_months': salary * 2,
           'qa_salary_after_12_months': salary * 2.7,
