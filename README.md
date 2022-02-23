@@ -147,7 +147,7 @@ request form data:
  salary: int  
   
 response:   
-```json
+```js
 {
 	'start_qa_salary': salary,
 	'qa_salary_after_6_months': salary * 2,
